@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>MUHAMMAD HOTEL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="main.css" />
+    <!-- <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script> -->
+    <link rel="icon" href="images/logo.png" type="image/png" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="head-top">
+        <div class="site-name">
+          <span>SARMAD ALI</span>
+        </div>
+        <div class="site-nav">
+          <span id="nav-btn">MENU <i class="fas fa-bars"></i></span>
+        </div>
+      </div>
+
+      <div class="head-bottom flex">
+        <h2> BABA HOTEL</h2>
+        <h2>NICE AND COMFORTABLE PLACE TO STAY</h2>
+        <p>
+          Leadership is creating an environment in which people want to be part
+          of the organization and not just work for the organization. Leadership
+          creates an environment that makes people want to, rather than have to,
+          do.
+        </p>
+        <button type="button" class="head-btn">GET STARTED</button>
+      </div>
+    </header>
+
+    <div class="sidenav" id="sidenav">
+      <span class="cancel-btn" id="cancel-btn">
+        <i class="fas fa-times"></i>
+      </span>
+
+      <ul class="navbar">
+        <li><a href="#header">home</a></li>
+        <li><a href="#services">services</a></li>
+        <li><a href="#rooms">rooms</a></li>
+        <li><a href="#customers">customers</a></li>
+      </ul>
+      <button class="btn sign-up">sign up</button>
+      <button class="btn log-in">log in</button>
+    </div>
+
+    <div id="modal"></div>
+
+    <section class="services sec-width" id="services">
+      <div class="title">
+        <h2>services</h2>
+      </div>
+      <div class="services-container">
+        <article class="service">
+          <div class="service-icon">
+            <span>
+              <i class="fas fa-utensils"></i>
+            </span>
+          </div>
+          <div class="service-content">
+            <h2>Food Service/ Food Runner</h2>
+            <p>
+              A man who goes into a restauran Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis fugiat porro vitae in, numquam provident quod beatae blanditiis totam? Assumenda blanditiis eum ut maxime odio.
+
+            </p>
+            <button type="button" class="btn">Know More</button>
+          </div>
+        </article>
+
+        <article class="service">
+          <div class="service-icon">
+            <span>
+              <i class="fas fa-swimming-pool"></i>
+            </span>
+          </div>
+          <div class="service-content">
+            <h2>Refreshment</h2>
+            <p>
+              A lonely day is God's way of saying that he wants to spend some
+              quality time with you.
+            </p>
+            <button type="button" class="btn">Know More</button>
+          </div>
+        </article>
+
+        <article class="service">
+          <div class="service-icon">
+            <span>
+              <i class="fas fa-broom"></i>
+            </span>
+          </div>
+          <div class="service-content">
+            <h2>Housekeeping</h2>
+            <p></p>
+            <button type="button" class="btn">Know More</button>
+          </div>
+        </article>
+
+        <article class="service">
+          <div class="service-icon">
+            <span>
+              <i class="fas fa-door-closed"></i>
+            </span>
+          </div>
+          <div class="service-content">
+            <h2>Room Security</h2>
+            <p>
+              The good we secure for ourselves is precarious and uncertain until
+              it is secured for all of us and incorporated into our common life.
+            </p>
+            <button type="button" class="btn">Know More</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <div class="book">
+      <form class="book-form">
+        <div class="form-item">
+          <label for="checkin-date">Check In Date: </label>
+          <input type="date" id="chekin-date" />
+        </div>
+        <div class="form-item">
+          <label for="checkout-date">Check Out Date: </label>
+          <input type="date" id="chekout-date" />
+        </div>
+        <div class="form-item">
+          <label for="adult">Adults: </label>
+          <input type="number" min="1" value="1" id="adult" />
+        </div>
+        <div class="form-item">
+          <label for="children">Children: </label>
+          <input type="number" min="1" value="1" id="children" />
+        </div>
+        <div class="form-item">
+          <label for="rooms">Rooms: </label>
+          <input type="number" min="1" value="1" id="rooms" />
+        </div>
+        <div class="form-item">
+          <input type="submit" class="btn" value="Book Now" />
+        </div>
+      </form>
+    </div>
+
+    <section class="rooms sec-width" id="rooms">
+      <div class="title">
+        <h2>rooms</h2>
+      </div>
+      <div class="rooms-container">
+        <article class="room">
+          <div class="room-image">
+            <img src="images/img1.jpg" alt="room image" />
+          </div>
+          <div class="room-text">
+            <h3>Luxury Rooms</h3>
+
+            <p>
+              The first bedroom here,Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, architecto? Culpa, minus neque enim voluptates qui amet ex eveniet voluptate provident illo sed a nisi exercitationem nulla aspernatur quod quisquam nemo dolore iusto quam animi mollitia doloribus cumque praesentium. Ullam!
+
+            </p>
+            <p>
+              While having more Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veritatis obcaecati quibusdam dicta quis quia qui repellendus architecto autem iusto ipsum vitae, distinctio corporis quo temporibus aliquam officia odit voluptatibus a praesentium! Adipisci ea incidunt cumque reiciendis eveniet, dolores omnis!
+              .
+            </p>
+            <p class="rate"><span>5000.00 /</span> Per Night</p>
+            <button type="button" class="btn">book now</button>
+          </div>
+        </article>
+
+        <article class="room">
+          <div class="room-image">
+            <img src="images/img2.jpg" alt="room image" />
+          </div>
+          <div class="room-text">
+            <h3>Luxury Rooms</h3>
+            <p>
+              Of course, sometimes a stripped down design is what luxury is all
+              about. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam minus autem consequuntur numquam, optio explicabo perspiciatis maiores iure, accusantium enim debitis quis deserunt dolorem qui eos laboriosam? Odio voluptate animi, obcaecati iusto tenetur nemo! Vero, sequi. Ex tenetur possimus assumenda!
+
+            </p>
+            <p class="rate"><span>5000.0 /</span> Per Night</p>
+            <button type="button" class="btn">book now</button>
+          </div>
+        </article>
+
+        <article class="room">
+          <div class="room-image">
+            <img src="images/img3.jpg" alt="room image" />
+          </div>
+          <div class="room-text">
+            <h3>Luxury Rooms</h3>
+
+            <p>
+              On the other end Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore quibusdam at asperiores aut voluptatum ea ipsam voluptas molestiae incidunt libero impedit maiores quas quaerat amet quae debitis, deserunt aperiam inventore veniam eveniet hic qui soluta!
+
+            </p>
+            <p>
+              The luxury features Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, quia. Odit consequatur quos nemo non, nisi aliquam inventore optio, magni dolore cupiditate quibusdam laboriosam, laborum fugit officiis dolor placeat a corporis eaque consequuntur quasi in?
+
+            </p>
+            <p class="rate"><span>5000.00 /</span> Per Night</p>
+            <button type="button" class="btn">book now</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="customers" id="customers">
+      <div class="sec-width">
+        <div class="title">
+          <h2>customers</h2>
+        </div>
+        <div class="customers-container">
+          <div class="customer">
+            <div class="rating">
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="far fa-star"></i></span>
+            </div>
+            <h3>We Loved it</h3>
+            <p>
+              The staff were amazing. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Eum amet beatae iste, culpa commodi rem quaerat
+              in soluta veritatis voluptatibus corporis adipisci voluptatem quo?
+              Repudiandae facilis vel distinctio consectetur voluptates tenetur
+              nobis et veniam laudantium magni illo vitae cupiditate
+              voluptatibus odit, fuga illum eos, similique perspiciatis
+              aspernatur rerum minima saepe cumque, deleniti aperiam. Aspernatur
+              unde fugiat illum commodi reprehenderit maiores?.
+            </p>
+            <img src="images/cus1.jpeg" alt="customer image" />
+            <span>Anab Khan</span>
+          </div>
+
+          <div class="customer">
+            <div class="rating">
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="far fa-star"></i></span>
+            </div>
+            <h3>Comfortable Living</h3>
+            <p>
+              Wonderful place to stay. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, error maiores nemo aliquam suscipit beatae quas. Magnam facilis officia animi officiis perferendis quos eaque id debitis tempore, omnis corrupti expedita ipsum quidem hic illo quo maxime deleniti blanditiis adipisci aut. Repellendus eius fugit natus magni ipsam sequi vero ipsum obcaecati illum, officiis ullam aut consequatur omnis. Optio quia ea sapiente!
+
+            </p>
+            <img src="images/cus2.jpg" alt="customer image" />
+            <span>SARMAD ALIII</span>
+          </div>
+
+          <div class="customer">
+            <div class="rating">
+              <span><i class=""></i></span>
+              <span><i class=""></i></span>
+              <span><i class=""></i></span>
+              <span><i class=""></i></span>
+              <span><i class=""></i></span>
+            </div>
+            <h3>Nice Place</h3>
+            <p>
+              stayed at Lorem ipsum, dolor sit amet consectetur adipisicing elit. At laborum odit alias consectetur doloribus voluptatibus non officia quam iure modi, rem aspernatur sed perspiciatis dolor? Doloribus nihil recusandae veniam nisi nesciunt possimus reprehenderit officia impedit praesentium cum, dicta sapiente molestias. Ab libero asperiores a minima totam nisi sed fuga nobis ipsam recusandae? Veniam cupiditate nobis provident repudiandae sint rem laboriosam!
+
+            </p>
+            <img src="images/cuss3.jfif" alt="customer image" />
+            <span>USMAN ABBAS </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div>
+          <h2>About Us</h2>
+          <p>
+            At BABA Hotel, our core values are the principles that guide,
+            motivate and inspire us as we bring our mission to life. These core
+            values describe how we do what we do and they are the very essence
+            of new Hotels. 
+          </p>
+          <ul class="social-icons">
+            <li class="flex">
+              <i class="fa fa-twitter fa-2x"></i>
+            </li>
+            <li class="flex">
+              <i class="fa fa-facebook fa-2x"></i>
+            </li>
+            <li class="flex">
+              <i class="fa fa-instagram fa-2x"></i>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Useful Links</h2>
+          <a href="#">Rooms</a>
+          <a href="#">Subscription</a>
+          <a href="#">Gift Card</a>
+        </div>
+
+        <div>
+          <h2>Privacy</h2>
+          <a href="#">Career</a>
+          <a href="#">About Us</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Services</a>
+        </div>
+
+        <div>
+          <h2>Have A Question</h2>
+          <div class="contact-item">
+            <span>
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+            <span> fawara chowk Abbottabad </span>
+          </div>
+          <div class="contact-item">
+            <span>
+              <i class="fas fa-phone-alt"></i>
+            </span>
+            <span> 03155521115 </span>
+          </div>
+          <div class="contact-item">
+            <span>
+              <i class="fas fa-envelope"></i>
+            </span>
+            <span> asarmad69@gmail.com </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
